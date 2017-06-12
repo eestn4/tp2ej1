@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void mostrar_msg(){
-        Toast.makeText(this, "Este es un mensaje",
-                Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Este es un mensaje", Toast.LENGTH_LONG).show();
     }
 }
